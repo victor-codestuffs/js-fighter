@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px 2.5px;
+  line-height: 1.6;
+  font-size: 18px;
+  border-bottom: 1px solid antiquewhite;
+}
+
+.container {
+  max-width: 520px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  padding: 5px;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 12px;
+}
+
+.button:active {
+  color: black;
+}
+
+.button-bob {
+  color: red;
+}
+
+.button-linda {
+  color: blue;
+}
+
+#battlefield {
+  height: 60vh;
+  overflow-y: auto;
+}

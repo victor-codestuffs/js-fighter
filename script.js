@@ -10,6 +10,7 @@ var Fighter = (function() {
     li.textContent = words;
 
     battlefield.appendChild(li);
+    battlefield.scrollTop = battlefield.scrollHeight;
   }
 
   function Fighter(name, str, hp) {
